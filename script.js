@@ -8,7 +8,7 @@ function compareValues(sum,uickyNumber){
         outputBox.value="Your Birthday is Lucky🥳";
     }
     else{
-        outputBox.value="Oops!! your birthday is nit lucky😔"; 
+        outputBox.value="Oops!! your birthday is not lucky😔"; 
     }
 
 }
