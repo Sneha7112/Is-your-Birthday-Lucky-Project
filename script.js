@@ -3,7 +3,7 @@ const luckyNumber = document.querySelector("#lucky-number");
 
 const checkNumberButton = document.querySelector("#check-number");
 const outputBox = document.querySelector("#output-box");
-function compareValues(sum,uickyNumber){
+function compareValues(sum,luckyNumber){
     if(sum%luckyNumber ===0){
         outputBox.value="Your Birthday is Lucky🥳";
     }
